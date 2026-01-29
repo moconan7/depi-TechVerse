@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f8f9fa;
+  color: #222;
+}
+
+/* HEADER */
+.main-header {
+  background: #0d6efd;
+  color: #fff;
+  padding: 20px 40px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: #e9ecef;
+}
+
+.hero h2 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background: #0d6efd;
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+/* SECTIONS */
+section {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+/* COURSES */
+.courses,
+.instructors,
+.pricing {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.course,
+.instructor,
+.plan {
+  background: #fff;
+  padding: 30px;
+  width: 260px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* FOOTER */
+.main-footer {
+  background: #0d6efd;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
